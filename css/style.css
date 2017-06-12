@@ -95,6 +95,7 @@
   width: 100%; }
   .name h4 {
     color: white;
+    text-shadow: 0px 0px 5px #969696;
     font-size: 2em;
     font-family: 'Alfa Slab One', sans-serif !important; }
 

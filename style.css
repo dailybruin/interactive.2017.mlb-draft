@@ -1,105 +1,25 @@
-.page-header {
-  height: auto;
-  text-align: center;
-  border-bottom: 20px solid #8c0019; }
+/*
+Errno::ENOENT: No such file or directory @ rb_sysopen - style.scss
 
-.section {
-  border-bottom: none;
-  background-color: black;
-  color: white; }
-
-.title {
-  line-height: 200px;
-  font-family: 'Arial', sans-serif;
-  font-size: 3.5em; }
-
-.black {
-  background-color: black; }
-
-.video-blurb {
-  background-color: #003791;
-  height: auto;
-  padding: 20px;
-  color: white; }
-
-.video-blurb h3 {
-  font-family: 'Alfa Slab One', sans-serif; }
-
-.video-container {
-  position: relative;
-  padding-bottom: 56.25%;
-  padding-top: 30px;
-  height: 0;
-  overflow: hidden;
-  width: 100%;
-  margin: auto; }
-
-.video-container iframe,
-.video-container object,
-.video-container embed {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  min-width: 300px;
-  height: 100%; }
-
-@media only screen and (max-width: 768px) {
-  #title {
-    font-size: 2em; } }
-#logo {
-  width: 100px;
-  transform: translateY(-17px); }
-
-.article-details {
-  height: auto;
-  width: 100%;
-  position: absolute;
-  padding: 10px;
-  z-index: 900;
-  background: linear-gradient(rgba(0, 0, 0, 0.8), transparent);
-  transition: background 0.3 ease; }
-  .article-details a {
-    color: white; }
-  .article-details h4 {
-    font-weight: bolder;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center; }
-  .article-details span {
-    text-transform: uppercase;
-    opacity: 0;
-    transition: opacity 0.3s ease; }
-  .article-details p {
-    font-weight: lighter;
-    opacity: 0;
-    transition: opacity 0.3s ease; }
-
-.article-thumbnail {
-  text-align: center;
-  color: #fff;
-  height: 400px; }
-
-.article-thumbnail:hover .article-details {
-  background: linear-gradient(rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.4) 85%, transparent 100%); }
-  .article-thumbnail:hover .article-details span {
-    opacity: 1; }
-  .article-thumbnail:hover .article-details p {
-    opacity: 1; }
-
-.article-thumbnail:hover .article-image-link {
-  border-bottom: 12px solid red; }
-
-.article-image-link {
-  background-size: cover;
-  background-position: center;
-  height: 400px;
-  position: relative;
-  border-radius: 8px;
-  border-bottom: 5px solid gray;
-  transition: border-bottom 0.3s ease; }
-
-.modal-title {
-  background-color: skyblue; }
-
-/*# sourceMappingURL=style.css.map */
+Backtrace:
+/Users/michaelzhang/.rvm/gems/ruby-2.4.0@global/gems/sass-3.4.24/lib/sass/plugin/compiler.rb:484:in `read'
+/Users/michaelzhang/.rvm/gems/ruby-2.4.0@global/gems/sass-3.4.24/lib/sass/plugin/compiler.rb:484:in `update_stylesheet'
+/Users/michaelzhang/.rvm/gems/ruby-2.4.0@global/gems/sass-3.4.24/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/michaelzhang/.rvm/gems/ruby-2.4.0@global/gems/sass-3.4.24/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/michaelzhang/.rvm/gems/ruby-2.4.0@global/gems/sass-3.4.24/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/michaelzhang/.rvm/gems/ruby-2.4.0@global/gems/sass-3.4.24/lib/sass/plugin/compiler.rb:294:in `watch'
+/Users/michaelzhang/.rvm/gems/ruby-2.4.0@global/gems/sass-3.4.24/lib/sass/plugin.rb:109:in `method_missing'
+/Users/michaelzhang/.rvm/gems/ruby-2.4.0@global/gems/sass-3.4.24/lib/sass/exec/sass_scss.rb:360:in `watch_or_update'
+/Users/michaelzhang/.rvm/gems/ruby-2.4.0@global/gems/sass-3.4.24/lib/sass/exec/sass_scss.rb:51:in `process_result'
+/Users/michaelzhang/.rvm/gems/ruby-2.4.0@global/gems/sass-3.4.24/lib/sass/exec/base.rb:52:in `parse'
+/Users/michaelzhang/.rvm/gems/ruby-2.4.0@global/gems/sass-3.4.24/lib/sass/exec/base.rb:19:in `parse!'
+/Users/michaelzhang/.rvm/gems/ruby-2.4.0@global/gems/sass-3.4.24/bin/sass:13:in `<top (required)>'
+/Users/michaelzhang/.rvm/rubies/ruby-2.4.0/bin/sass:22:in `load'
+/Users/michaelzhang/.rvm/rubies/ruby-2.4.0/bin/sass:22:in `<main>'
+/Users/michaelzhang/.rvm/gems/ruby-2.4.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/michaelzhang/.rvm/gems/ruby-2.4.0/bin/ruby_executable_hooks:15:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Errno::ENOENT: No such file or directory @ rb_sysopen - style.scss"; }
